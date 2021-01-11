@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <ul>
+    <ul id="Menu">
         <li>
             <a href="index.html">Home</a>
         </li>
@@ -17,34 +18,56 @@
         </li>
 
     </ul>
-    <h1>Entre em contato comigo</h1>
+    <h1 class="center">Entre em contato comigo</h1>
 
-    <form>
-        <label for="Nome">Nome:</label> <br>
-        <input type="text" id="Nome">
-        <br>
-        <br>
-        <label for="Email">Email:</label> <br>
-        <input type="text" id="Email">
-        <br>
-        <br>
-        <label for="Assunto">Assunto:</label> <br>
-        <textarea name="Assunto" id="Assunto" cols="60" rows="5"></textarea>
-        <br>
-        <br>
-        <button>Enviar</button>
-    </form>
+    <div class="container mb-50">
+        <div>
+            <form>
+                
+                <label for="Nome">Nome:</label> <br>
+                <input type="text" id="Nome">
+                <br>
+                <br>
+                <label for="Email">Email:</label> <br>
+                <input type="text" id="Email">
+                <br>
+                <br>
+                <label for="Assunto">Assunto:</label> <br>
+                <textarea name="Assunto" id="Assunto" cols="60" rows="5"></textarea>
+                <br>
+                <br>
+                <button>Enviar</button>
+            </form>
+        </div>
 
+        <div class="ml-50">
+            <p>Av. Paulista, 2073</p>
+            <p>São Paulo - SP</p>
 
-    <h2>Endereço</h2>
+            <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.2680384236332!2d-46.66183318554309!3d-23.558814967382233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59cd6c15ae67%3A0xc84500afe89dd017!2sAvenida%20Paulista%2C%202073!5e0!3m2!1spt-BR!2sbr!4v1610116702477!5m2!1spt-BR!2sbr"
+            width="400" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+            
+        </iframe>
+        </div>
+    </div>
+    <hr>
+    <footer>
 
-    <p>Av. Paulista, 2073</p>
-    <p>São Paulo - SP</p>
+    <div class= "container">
+    <a href="https://www.facebook.com/bruno5561" target="_blank">
+        <img class="tm-social p-30" src="assets/img/facebook.png" alt="Logo do Facebook">
+    </a>  
 
-    <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.2680384236332!2d-46.66183318554309!3d-23.558814967382233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59cd6c15ae67%3A0xc84500afe89dd017!2sAvenida%20Paulista%2C%202073!5e0!3m2!1spt-BR!2sbr!4v1610116702477!5m2!1spt-BR!2sbr"
-        width="400" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
-    </iframe>
+    <a href="https://www.linkedin.com/in/bruno-augusto-falango-3433b0196/" target="_blank">
+        <img class="tm-social p-30" src="assets/img/linkedin.png" alt="Logo do Linkedin">
+    </a>
+    
+    </div>
+   <p class="center">
+    Todos os direitos reservados: Bruno Augusto Falango &copy;
+   </p>  
+    </footer>
 </body>
 
 </html>
